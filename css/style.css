@@ -71,7 +71,7 @@
 .drawer {
   position: fixed;
   width: 80%;
-  height: 113vh;
+  height: 135vh;
   background: var(--drawer-color);
   color: var(--clean-color);
   z-index: 9;
