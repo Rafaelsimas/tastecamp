@@ -29,6 +29,7 @@ const enterApp = () => {
     screenLogin.classList.add("displayHidden")
     screenApp.classList.remove("displayHidden")
   }
+  renderDataOnScreen()
 }
 
 const renderDataOnScreen = () => {
@@ -43,4 +44,11 @@ const renderDataOnScreen = () => {
   }
 }
 
-renderDataOnScreen()
+const closeDrawer = () => {
+  const drawer = document.querySelector(".box-drawer")
+  drawer.classList.add("displayHidden")
+}
+const openDrawer = () => {
+  const drawer = document.querySelector(".box-drawer")
+  drawer.classList.remove("displayHidden")
+}

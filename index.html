@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="box-login displayHidden">
+      <div class="box-login">
         <div class="login">
           <div class="left-screen-login">
             <div class="box-action-login">
@@ -27,11 +27,13 @@
 
       <main class="main">
         <div class="box-main">
-          <div class="box-drawer">
+          <div class="box-drawer displayHidden">
             <div class="drawer">
               <div class="exit">
                 <div class="name-user">Rafael Simas</div>
-                <button>Fechar</button>
+                <button class="btn-close-drawer" onclick="closeDrawer()">
+                  Fechar
+                </button>
               </div>
               <ul class="list"></ul>
             </div>
@@ -56,6 +58,7 @@
                 <textarea name="#" id="#"></textarea>
               </div>
               <button>Adicionar receita</button>
+              <button onclick="openDrawer()">Visualizar receita</button>
             </div>
           </div>
         </div>
