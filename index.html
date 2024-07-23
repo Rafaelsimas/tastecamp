@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>tastecamp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-login displayHidden">
+        <div class="login">
+          <div class="left-screen-login">
+            <div class="box-action-login">
+              <img src="./assets/img/dark.svg" alt="" />
+              <div class="input-data">
+                <input id="nameUser" type="text" placeholder="Nome" />
+              </div>
+              <div class="input-data">
+                <button onclick="enterApp()">Entrar</button>
+              </div>
+            </div>
+          </div>
+          <div class="right-screen-login"></div>
+        </div>
+      </div>
+
+      <main class="main">
+        <div class="box-main">
+          <div class="box-drawer">
+            <div class="drawer">
+              <div class="exit">
+                <div class="name-user">Rafael Simas</div>
+                <button>Fechar</button>
+              </div>
+              <ul class="list"></ul>
+            </div>
+          </div>
+          <div class="box displayHidden">
+            <div class="contentArea">
+              <div class="title-add">Adicionar Receita</div>
+              <div class="action-input">
+                <p class="title-input">NOME DA RECEITA</p>
+                <input type="text" />
+              </div>
+              <div class="action-input">
+                <p class="title-input">NOME DA RECEITA</p>
+                <input type="text" />
+              </div>
+              <div class="action-input">
+                <p class="title-input">INGREDIENTES</p>
+                <textarea name="#" id="#"></textarea>
+              </div>
+              <div class="action-input">
+                <p class="title-input">MODO DE PREPARO</p>
+                <textarea name="#" id="#"></textarea>
+              </div>
+              <button>Adicionar receita</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-resume-area displayHidden">
+          <div class="resume-area">
+            <div class="revenue-name">PUDIM DE LEITE CONDENSADO</div>
+            <div class="action-resume">
+              <div class="title-resume">INGREDIENTES</div>
+              <div class="display-resume">
+                1 lata de leite condensado 1 lata de leite condensado 1 lata de
+                leite condensado 1 lata de leite condensado 1 lata de leite
+                condensado 1 lata de leite condensado
+              </div>
+            </div>
+            <div class="action-resume">
+              <div class="title-resume">MODO DE PREPARO</div>
+              <div class="display-resume">
+                1 lata de leite condensado 1 lata de leite condensado 1 lata de
+                leite condensado 1 lata de leite condensado 1 lata de leite
+                condensado 1 lata de leite condensado
+              </div>
+              <div class="action-more-del">
+                <ion-icon class="delete" name="trash-outline"></ion-icon>
+                <ion-icon class="add" name="add-circle-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
